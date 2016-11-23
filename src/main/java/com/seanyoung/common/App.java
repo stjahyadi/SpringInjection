@@ -11,7 +11,7 @@ import com.seanyoung.component.MessageService;
 
 /**
  * Hello world!
- *
+ * 
  */
 @Configuration
 @ComponentScan("com.seanyoung")
