@@ -1,11 +1,12 @@
 # SpringInjection
+Please download the notes and open in text editor.
 Steps<br/>
 1. Run following command in order to generate maven project<br/>
 mvn archetype:generate -DgroupId=com.seanyoung.common -DartifactId=SpringInjection -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false<br/>
 2. Run following command in order to convert the project into eclipse IDE<br/> 
 Run mvn eclipse:eclipse for java application and mvn eclipse:eclipse -Dwtpversion=2.0 for web app<br/>
 3. Add spring dependency<br/>
-'<dependency>'<br/>
+<dependency><br/>
 	<groupId>org.springframework</groupId><br/>
 	<artifactId>spring-context</artifactId><br/>
 	<version>4.3.0.RELEASE</version><br/>
