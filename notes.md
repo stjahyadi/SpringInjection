@@ -1,6 +1,6 @@
 # SpringInjection
-Steps
-1. Run following command in order to generate maven project
+Steps<br/>
+1. Run following command in order to generate maven project<br/>
 mvn archetype:generate -DgroupId=com.seanyoung.common -DartifactId=SpringInjection -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 2. Run following command in order to convert the project into eclipse IDE 
 Run mvn eclipse:eclipse for java application and mvn eclipse:eclipse -Dwtpversion=2.0 for web app
