@@ -5,7 +5,7 @@ mvn archetype:generate -DgroupId=com.seanyoung.common -DartifactId=SpringInjecti
 2. Run following command in order to convert the project into eclipse IDE<br/> 
 Run mvn eclipse:eclipse for java application and mvn eclipse:eclipse -Dwtpversion=2.0 for web app<br/>
 3. Add spring dependency<br/>
-<dependency><br/>
+'<dependency>'<br/>
 	<groupId>org.springframework</groupId><br/>
 	<artifactId>spring-context</artifactId><br/>
 	<version>4.3.0.RELEASE</version><br/>
@@ -22,7 +22,7 @@ This introduction has 2 samples.<br/>
 1. How to inject bean by annotation<br/>
 2. Differentiate between @Autowired, @Inject and @Resource<br/><br/>
 
-By default beans marked with '@Component' will have the same name as the class. Therefore the name of the class ‘Person’ is person.<br/><br/>
+By default beans marked with '@Component' will have the same name as the class. Therefore the name of the class 'Person' is person.<br/><br/>
 
 Annotation to inject the bean from spring container<br/>
 1. @Autowired -> org.springframework.bean.factor -> Spring <br/>
